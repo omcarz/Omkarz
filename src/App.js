@@ -1,9 +1,11 @@
 import React from "react";
+import Hero from "./screens/hero";
+import './styles/index.css'
 
 function App() {
   return (
     <div>
-      hii
+      <Hero/>
     </div>
   );
 }
