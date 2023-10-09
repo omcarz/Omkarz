@@ -1,0 +1,119 @@
+.route-main-div{
+    margin-top: 2%;
+}
+
+/* ----------------------Header------------------------- */
+
+.rt-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1% 0 2%;
+}
+
+.rt-head p{
+    color: #fff;
+    font-size: 4rem;
+}
+
+.rt-hr{
+    border: 2px solid #fff;
+    width: 42rem;
+    border-radius: 5px;
+}
+
+/* ----------------------Route Cards------------------------- */
+
+.rt-cards-div{
+    margin: 0 8%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.rt-card{
+    margin: 0 0 3%;
+    background-color: rgba(255,202,133,255);
+    width: 23rem;
+    height: 25rem;
+    padding: 2.5% 0;
+}
+
+.rt-card-hd{
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(254,145,1,255);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.rt-cd-hr{
+    border: 5px solid #fff;
+}
+
+.rt-card-main{
+    text-align: center;
+}
+
+.car-card-img{
+    width: 22rem;
+}
+
+.rt-card-btn{
+    width: 7rem;
+    height: 3rem;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(254,145,1,255);
+}
+
+.rt-card-l1{
+    margin-top: 1.5rem;
+    font-weight: bold;
+}
+
+.rt-card-l2{
+    font-weight: bold;
+    font-size: 1.7rem;
+    margin-top: 10px;
+}
+
+.rt-card-l3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+/* ----------------------Responsive------------------------- */
+@media only screen and (max-width:700px) {
+
+    .rt-cards-div{
+        margin: 0 4%;
+    }
+
+    .rt-head p{
+        font-size: 2rem;
+    }
+
+    .rt-hr{
+        width: 22rem;
+    }
+
+    .rt-card{
+        zoom: 80%;
+        width: 25rem;
+        padding: 5% 0;
+    }
+}
+
+@media only screen and (max-width:1280px) {
+    .rt-cards-div{
+        justify-content: space-around;
+    }
+}
