@@ -6,8 +6,8 @@ import '../styles/hero.css'
 export default function hero() {
   return (
     <div className='hero'>
-        <Navbar/>
-        <img src={Taxi} className='hero-taxi-img'/>
+      <Navbar />
+      <img src={Taxi} className='hero-taxi-img' />
     </div>
   )
 }
