@@ -2,7 +2,7 @@ import React from 'react'
 import ServiceCard from './serviceCard'
 import Taxi from '../images/ServicesTaxi.svg'
 import Airplane from '../images/Airplane.svg'
-import Clock from '../images/clock.svg'
+import Clock from '../images/serviceClock.svg'
 import '../styles/services.css'
 
 export default function ourServices() {
