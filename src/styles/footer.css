@@ -1,0 +1,84 @@
+.mainDivFooter{
+    margin-top: 8%;
+    display: flex;
+    flex-direction: column;
+}
+.upperDivFooter{
+    display: flex;
+    justify-content:space-around;
+}
+.lowerDivFooter{
+    color: #D4D5D9;
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+.footerLogo{
+    width: 270px;
+   margin-top: 4%;
+}
+.footerList{
+    margin-top: 1%;
+    font-size: 13px;
+    line-height: 10px;
+}
+.contactInfoFooter{
+    display: flex;
+    flex-direction: column;
+}
+.contactHeading{
+    margin-bottom:4%;
+}
+.contactInfoPara{
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.copyright{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+@media screen and (max-width: 1130px){
+    .footerLogo{
+        width: 240px;
+        margin-top: 4%;
+    }
+}
+@media screen and (max-width: 950px){
+    .footerLogo{
+        width: 200px;
+        margin-top: 4%;
+    }
+    .footerList{
+        display: none;
+    }
+    .contactInfoFooter{
+        margin: 0%;
+        width: 30%;
+        font-size: 14px;
+    }
+    .copyright{
+        font-size: 20px;
+        font-weight: 600;
+    }
+}
+@media screen and (max-width: 740px){
+    .footerLogo{
+        width: 160px;
+        margin-top: 20%;
+    }
+    .footerList{
+        display: none;
+    }
+    .contactInfoFooter{
+        margin: 0%;
+        width: 30%;
+        font-size: 12px;
+    }
+    .copyright{
+        font-size: 18px;
+        font-weight: 600;
+    }
+}
