@@ -42,7 +42,7 @@
 .rt-card-hd{
     height: 3rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: rgba(254,145,1,255);
     font-size: 1.5rem;
@@ -89,6 +89,12 @@
     font-weight: bold;
     margin-bottom: 1rem;
 }
+
+.rt-card-line{
+    width: 1.5rem;
+    height: 7px;
+    background-color: #fff;
+  }
 
 /* ----------------------Responsive------------------------- */
 @media only screen and (max-width:700px) {

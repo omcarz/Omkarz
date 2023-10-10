@@ -21,7 +21,9 @@ function Route() {
                                 <hr className="rt-cd-hr" />
                                 <div className="rt-card-hd">
                                     <p>{rt.src}</p>
-                                    {/* <hr className="rt-card-hr" /> */}
+                                    <div class="rt-card-line"></div>
+                                    <div class="rt-card-line"></div>
+                                    <div class="rt-card-line"></div>
                                     <p>{rt.dest}</p>
                                 </div>
                                 <hr className="rt-cd-hr" />
