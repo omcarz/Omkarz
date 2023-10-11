@@ -130,19 +130,7 @@ function Review() {
                                     </div>
                                 </div>
                             </SwiperSlide>
-                            <SwiperSlide>
-                                <div className="rvw-card">
-                                    <div className='rvw-card-top'>
-                                        <img className='rvw-card-user-img' src={User} alt='user-img' />
-                                        <p className='rvw-card-top-txt'>Meet Harsoda</p>
-                                    </div>
-
-                                    <div className='rvw-card-text'>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare cursus sed nunc eget dictum Sed ornare cursus sed nunc eget.lorem ipssum.</p>
-                                    </div>
-                                </div>
-                            </SwiperSlide>
-
+                            
 
                             <div className="slider-controler">
                                 <div className="swiper-button-prev slider-arrow">

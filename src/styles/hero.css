@@ -1,5 +1,6 @@
 .hero{
     width: 100%;
+    max-width: 100%;
     position: relative;
    }
    .hero-taxi-img{
@@ -9,7 +10,7 @@
    }
    .tagline{
        word-spacing: 4px;
-       line-height: 80px;
+       line-height: 150%;
        position: absolute;
        top:29%;
        left:57%;
@@ -38,3 +39,9 @@
            font-size: 23px;
        }
    }
+   @media screen and (max-width: 600px){
+    .tagline{
+        /* display: none; */
+        font-size: 19px;
+    }
+}

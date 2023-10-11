@@ -4,7 +4,7 @@ import '../styles/thingsToKnow.css'
 export default function thingsShouldKnow() {
     return (
         <div className="main-div">
-            <div className='heading'>
+            <div className='thingsToKnowheading'>
                 Things You Should Know
             </div>
             <div>

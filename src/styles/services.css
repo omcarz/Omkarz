@@ -5,9 +5,11 @@
     width: 100%;
     justify-content: center;
     align-items: center;
+    color: whitesmoke;
 }
 .hr{
     width: 50%;
+    margin-bottom: 8%;
 }
 .serviceList{
     display: flex;

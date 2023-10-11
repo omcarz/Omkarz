@@ -23,7 +23,7 @@ export default function ourServices() {
   }
   return (
     <div className='services-mainDiv'>
-      <h1>our services</h1>
+      <h1 style={{marginBottom:"2%"}}>our services</h1>
       <hr className='hr' />
       <div className='serviceList'>
         <div className='servicesRow'>
