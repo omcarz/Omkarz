@@ -1,46 +1,86 @@
-.hero{
+.hero {
     width: 100%;
     max-width: 100%;
     position: relative;
-   }
-   .hero-taxi-img{
-       margin: 4% 0% 0% 0%;
-       width: 100%;
-       height: fit-content;
-   }
-   .tagline{
-       word-spacing: 4px;
-       line-height: 150%;
-       position: absolute;
-       top:29%;
-       left:54%;
-       z-index: 2;
-       font-size: 3.3em;
-       color: #FFFFFF;
-       
-   }
-   @media screen and (max-width: 1130px){
-       .tagline{
-           font-size: 45px;
-       }
-   }
-   @media screen and (max-width: 950px){
-       .tagline{
-           font-size: 36px;
-       }
-   }
-   @media screen and (max-width: 740px){
-       .tagline{
-           font-size: 30px;
-       }
-   }
-   @media screen and (max-width: 615px){
-       .tagline{
-           font-size: 23px;
-       }
-   }
-   @media screen and (max-width: 600px){
-    .tagline{
+}
+
+.hero-taxi-img {
+    margin: 4% 0% 0% 0%;
+    width: 100%;
+    height: fit-content;
+}
+
+.tagline {
+    word-spacing: 4px;
+    line-height: 150%;
+    position: absolute;
+    top: 29%;
+    left: 54%;
+    z-index: 2;
+    font-size: 3.3em;
+    color: #FFFFFF;
+}
+
+.bookNow {
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 40%;
+    width: fit-content;
+}
+
+.bookNow-heading {
+    display: flex;
+    justify-content: center;
+    font-size: 0.5em;
+}
+
+.bookNow-icons {
+    display: flex;
+    background: #F2A745FA;
+    border-radius: 40px;
+    
+}
+
+.bookNow-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFC440CC;
+    width:55px;
+    height: 55px;
+    border-radius: 100%;
+    margin: 5px 10px 5px 10px;
+}
+
+@media screen and (max-width: 1130px) {
+    .tagline {
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .tagline {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .tagline {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 615px) {
+    .tagline {
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .tagline {
         /* display: none; */
         font-size: 19px;
     }

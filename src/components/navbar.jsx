@@ -40,7 +40,7 @@ export default function Navbar() {
                 <ul className='navbar-ul'>
                     <li className='list-items'>
                         <div className='navbar-icons'>
-                            <i class="fa-solid fa-house"></i>
+                            <i class="fa-solid fa-house" style={{transform:"scale(1.2)"}}></i>
                         </div>
                         Home
                     </li>
@@ -52,7 +52,7 @@ export default function Navbar() {
                     </li>
                     <li className='list-items'>
                         <div className='navbar-icons'>
-                        <i class="fa-brands fa-whatsapp"></i>
+                        <i class="fa-brands fa-whatsapp" style={{transform:"scale(1.4)"}}></i>
                         </div>
                         Whatsapp
                     </li>
