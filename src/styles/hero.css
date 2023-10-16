@@ -200,4 +200,11 @@
         height: 24px;
         margin: 1px;
     }
+    .timings {
+        position: absolute;
+        top: 18%;
+        left: 65%;
+        font-size: 0.40em;
+        font-weight: 600;
+    }
 }
