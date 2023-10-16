@@ -21,10 +21,14 @@ export default function Hero() {
           <div className='bookNow-heading'>Book Now</div>
           <div className='bookNow-icons'>
             <div className='bookNow-icon'>
+              <a href="tel:9876543210" className='navb-link'>
               <i class="fa-solid fa-phone-volume" style={{ transform: "scale(0.5)", }}></i>
+              </a>
             </div>
             <div className='bookNow-icon'>
-              <i class="fa-brands fa-whatsapp" style={{ transform: "scale(0.67)" }}></i>
+              <a href='https://wa.me/8758451703' className='navb-link'>
+                <i class="fa-brands fa-whatsapp" style={{ transform: "scale(0.67)" }}></i>
+              </a>
             </div>
           </div>
         </div>

@@ -34,8 +34,8 @@
 .rt-card{
     margin: 0 0 3%;
     background-color: rgba(255,202,133,255);
-    width: 22rem;
-    height: 26rem;
+    width: 20rem;
+    height: 25rem;
     padding: 2.5% 0;
 }
 
@@ -58,7 +58,7 @@
 }
 
 .car-card-img{
-    width: 22rem;
+    width: 20rem;
 }
 
 .rt-card-btn{

@@ -10,28 +10,32 @@ export default function footer() {
                     <img src={Logo} alt='Logo' className='footerLogo' />
                 </div>
                 <div className='footerList'>
-                        <p>Home</p>
-                        <p>Book</p>
-                        <p>About</p>
+                    <p>Home</p>
+                    <p>Book</p>
+                    <p>About</p>
                 </div>
                 <div className="contactInfoFooter">
                     <div>
                         <h6 className='contactHeading'>Contact Us</h6>
-                        <p className="contactInfoPara">+1 999 888-76-54</p>
+                        <p className="contactInfoPara">7802957645</p>
                     </div>
                     <div>
                         <h6 className='contactHeading'>Email</h6>
-                        <p className="contactInfoPara">omkarz@gmail.com</p>
+                        <p className="contactInfoPara">hetalvyas1017@gmail.com</p>
                     </div>
                 </div>
                 <div className="contactInfoFooter">
                     <div>
                         <h6 className='contactHeading'>Address</h6>
-                        <p className="contactInfoPara">2118 Thornridge Cir. Syracuse, Connecticut 35624</p>
+                        <p className="contactInfoPara">O 501 akruti township
+                            Opp samruddhi <br></br> residency,
+                            B/h nandanvan,
+                            Narol,<br></br>
+                            Ahmedabad 382405</p>
                     </div>
                     <div>
                         <h6 className='contactHeading'>Opening Hours</h6>
-                        <p className="contactInfoPara">9am—6pm</p>
+                        <p className="contactInfoPara">5am—11pm</p>
                     </div>
                 </div>
             </div>

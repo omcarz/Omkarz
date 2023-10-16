@@ -22,7 +22,7 @@ export default function ourServices() {
     img: Clock
   }
   return (
-    <div className='services-mainDiv'>
+    <div className='services-mainDiv' id="aboutus">
       <h1 style={{marginBottom:"2%"}}>our services</h1>
       <hr className='hr' />
       <div className='serviceList'>

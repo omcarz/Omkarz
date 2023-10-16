@@ -3,4 +3,5 @@ body{
     background-color: black;
     overflow-x: hidden;
     font-family: "Lexend";
+    scroll-behavior: smooth;
 }
