@@ -21,7 +21,7 @@ export default function footer() {
                     </div>
                     <div>
                         <h6 className='contactHeading'>Email</h6>
-                        <p className="contactInfoPara">hetalvyas1017@gmail.com</p>
+                        <p className="contactInfoPara">omcarz@gmail.com</p>
                     </div>
                 </div>
                 <div className="contactInfoFooter">

@@ -59,7 +59,7 @@
  .navbar-Bars{
      display:none;
      padding: 0%;
-     margin: 0%;
+     margin-right: 0%;
  }
  .navbar-barsList{
      padding: 0%;
@@ -144,10 +144,11 @@
  
  @media screen and (max-width: 600px){
     .navbar{
-        height: 3%;
+        height: 4%;
     }
     .logo{
         width: 17%;
+        margin-bottom: 3%;
     }
     .navbar-Bars{
         transform: scale(1);

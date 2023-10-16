@@ -44,7 +44,7 @@ export default function Navbar() {
                             Home
                         </li>
                     </a>
-                    <a href="tel:9876543210" className='navb-link'>
+                    <a href="tel:7802957645" className='navb-link'>
                         <li className='list-items'>
                             <div className='navbar-icons'>
                                 <i class="fa-solid fa-phone-volume"></i>
@@ -52,7 +52,7 @@ export default function Navbar() {
                             Book Now
                         </li>
                     </a>
-                    <a href='https://wa.me/8758451703' className='navb-link' target='blank'>
+                    <a href='https://wa.me/+917802957645' className='navb-link' target='blank'>
                         <li className='list-items'>
                             <div className='navbar-icons'>
                                 <i class="fa-brands fa-whatsapp" style={{ transform: "scale(1.4)" }}></i>
@@ -78,10 +78,10 @@ export default function Navbar() {
                                     <li className='navbar-barsListItems'>Home</li>
                                 </a>
                                 {/* <hr/> */}
-                                <a href="tel:9876543210" className='navb-link'>
+                                <a href="tel:7802957645" className='navb-link'>
                                     <li className='navbar-barsListItems'>Book Now</li>
                                 </a>
-                                <a href='https://wa.me/8758451703' className='navb-link' target='blank'>
+                                <a href='https://wa.me/+917802957645' className='navb-link' target='blank'>
                                     <li className='navbar-barsListItems'>Whatsapp</li>
                                 </a>
                                 <a href='#aboutus' className='navb-link'>

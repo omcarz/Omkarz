@@ -1,4 +1,4 @@
-.ServiceCard{
+.ServiceCard {
     width: 100%;
     background-color: white;
     color: black;
@@ -8,44 +8,56 @@
     border-radius: 50px;
     padding: 6px;
 }
-.serviceCardImg{
+
+.serviceCardImg {
     width: 100px;
-    height:100px;
+    height: 100px;
     margin: 0%;
 }
-.serviceCardInfo{
+
+.serviceCardInfo {
     font-size: 19px;
     width: 400px;
     display: flex;
     flex-direction: column;
 }
-.serviceCardHeading{
-    margin:3%;
+
+.serviceCardHeading {
+    margin: 3%;
     font-weight: 600;
     font-size: 18px;
 }
-.serviceCardPara{
+
+.serviceCardPara {
     margin: 0% 2% 0% 3%;
 }
 
 
 
-@media screen and (max-width: 600px){
-    .ServiceCard{
+@media screen and (max-width: 600px) {
+    .ServiceCard {
         width: 100%;
         border-radius: 50px;
         padding: 6px;
     }
-    .serviceCardImg{
+
+    .serviceCardImg {
         width: 70px;
-        height:70px;
+        height: 70px;
         margin: 0%;
     }
-    .serviceCardInfo{
-        font-size: 14px;
-        width: 300px;
+
+    .serviceCardHeading {
+        margin: 3%;
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+    .serviceCardInfo {
+        font-size: 12px;
+        width: 240px;
         display: flex;
         flex-direction: column;
     }
-    
+
 }

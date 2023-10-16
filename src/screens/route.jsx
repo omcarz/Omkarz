@@ -33,7 +33,9 @@ function Route() {
                                     <img className="car-card-img" src={Car} alt="car-img" />
                                     <p className="rt-card-l3">{rt.l4}</p>
                                     <p className="rt-card-l3">{rt.l5}</p>
+                                    <a href="tel:7802957645" className='navb-link'>
                                     <button className="rt-card-btn">BOOK NOW</button>
+                                    </a>
                                 </div>
                             </div>
                         })
