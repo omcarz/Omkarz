@@ -34,8 +34,8 @@
 .rt-card{
     margin: 0 0 3%;
     background-color: rgba(255,202,133,255);
-    width: 30%;
-    height: 25rem;
+    width: 22rem;
+    height: 26rem;
     padding: 2.5% 0;
 }
 
@@ -90,10 +90,8 @@
     margin-bottom: 1rem;
 }
 
-.rt-card-line{
-    width: 1.5rem;
-    height: 7px;
-    background-color: #fff;
+.rt-card-arw-img{
+    width: 4rem;
   }
 
 /* ----------------------Responsive------------------------- */
