@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/route.css";
 import Car from "../images/rtcar.svg";
 import Rtdata from "./rtdata.json";
+import Arrow from "../images/arrow.svg";
 
 function Route() {
     return (
@@ -21,9 +22,7 @@ function Route() {
                                 <hr className="rt-cd-hr" />
                                 <div className="rt-card-hd">
                                     <p>{rt.src}</p>
-                                    <div class="rt-card-line"></div>
-                                    <div class="rt-card-line"></div>
-                                    <div class="rt-card-line"></div>
+                                    <img className="rt-card-arw-img" src={Arrow} alt="arrow-img" />
                                     <p>{rt.dest}</p>
                                 </div>
                                 <hr className="rt-cd-hr" />
