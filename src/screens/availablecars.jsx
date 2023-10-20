@@ -16,7 +16,9 @@ function Availablecars() {
                 <div className="ac-row1">
                     <div className="ac-row1-lft">
                         <p className="ac-row-txt-hd">SEDAN-SWIFT DZIRE</p>
-                        <p className="ac-row-txt-mn">A 4+1-seater compact sedan along with the Driver which we provide. We provide the experienced driver who help you to reach your destination safely.</p>
+                        <p className="ac-row-txt-mn">
+                        A 4+1-seater compact sedan, along with the driver, which we provide. We provide an experienced driver who helps you reach your destination safely.                        
+                        </p>
                     </div>
 
                     <div className="ac-row1-rht">
@@ -27,7 +29,8 @@ function Availablecars() {
                 <div className="ac-row2">
                     <div className="ac-row2-lft">
                         <p className="ac-row-txt-hd">SUV-ERTIGA</p>
-                        <p className="ac-row-txt-mn">A 6+1-seater compact and comfortable SUV along with the Driver which we provide. We provide the experienced driver who help you to reach your destination safely.</p>
+                        <p className="ac-row-txt-mn">
+                        A 6+1-seater compact and comfortable SUV, along with the driver, which we provide. We provide an experienced driver who helps you reach your destination safely.                            </p>
                     </div>
 
                     <div className="ac-row2-rht">

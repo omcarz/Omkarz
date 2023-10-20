@@ -146,7 +146,8 @@ function Review() {
 
                                     <div className='rvw-card-text'>
                                         <p>
-                                            The drivers are not only skilled at navigation but also great conversationalists. It's a pleasure to ride with them, and they make the journey enjoyable                                        </p>
+                                        "I've been using this cab service for a while now, and I'm always impressed with their punctuality and professionalism. The drivers are courteous, and the vehicles are clean and well-maintained."
+                                            </p>
                                     </div>
                                 </div>
                             </SwiperSlide>

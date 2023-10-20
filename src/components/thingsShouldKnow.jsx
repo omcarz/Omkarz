@@ -9,9 +9,9 @@ export default function thingsShouldKnow() {
             </div>
             <div>
                 <ul className='list'>
-                    <li>We provide only car services. So call according to your needs.</li>
-                    <li>Subjects to the Ahmedabad judiciary
-                        You must pay Toll Tax and Parking Fees.</li>
+                    <li>We solely offer automobile services. So, call based on what you require.</li>
+                    <li>You must pay Toll Tax and Parking Fees.</li>
+                    <li>Subjects to the Ahmedabad judiciary</li>
                 </ul>
             </div>
         </div>
