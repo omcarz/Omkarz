@@ -36,6 +36,10 @@
   background-color: rgba(255, 196, 64, 1);
 }
 
+.rvw-card-text p{
+  font-size: 35px;
+}
+
 
 /* ----------------------Responsive------------------------- */
 
@@ -52,6 +56,11 @@
     .rvw-hr{
         width: 17rem;
     }
+
+    .rvw-card-text p{
+      font-size: 32px;
+    }
+    
 }
 
 
@@ -242,5 +251,11 @@
   .swiper-pagination .swiper-pagination-bullet {
     height: 20px;
     width: 20px;
+  }
+}
+
+@media only screen and (max-width:700px) {
+  .rvw-card-text p{
+    font-size: 28px;
   }
 }
