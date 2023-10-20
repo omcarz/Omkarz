@@ -2,6 +2,7 @@
     width: 100%;
     max-width: 100%;
     position: relative;
+    margin-bottom: 10%;
 }
 
 .hero-taxi-img {
@@ -191,7 +192,7 @@
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 500px) {
     .tagline {
         font-size: 25px;
         font-weight: 600;
@@ -206,17 +207,20 @@
     top: 80%;
     left: 50%;
     z-index: 2;
-    font-size: 2em;
+    font-size: 2.2em;
     color: #FFFFFF;
     margin-top: 3%;
     display: flex;
     flex-direction: column;
     width: fit-content;
     }
+    .bookNow-heading {
+        margin-bottom: 2%;
+    }
     .bookNow-icon {
-        width: 24px;
-        height: 24px;
-        margin: 1px;
+        width: 30px;
+        height: 30px;
+        margin: 2px;
     }
     .timings {
         display: none;

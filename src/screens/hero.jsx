@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react'
-import Navbar from '../components/navbar'
 import Taxi from "../images/yellowTaxi.svg"
 import PhoneTaxi from "../images/phoneTaxi.svg"
 import '../styles/hero.css'
@@ -11,15 +10,14 @@ export default function Hero() {
   const [image, setImage] = useState(Taxi);
   const [heroTxt, setHeroTxt] = useState(false);
   useEffect(() => {
-    if (window.innerWidth < 500) {
+    if (window.innerWidth <= 500) {
       setImage(PhoneTaxi);
       setHeroTxt(true);
     }
 
-  }, window.outerWidth)
+  }, [])
   return (
     <div className='hero'>
-      <Navbar />
       <img src={image} className='hero-taxi-img' alt="hero" />
       <div className='timings'>
         <i style={{ marginRight: "6px" }} class="fa-solid fa-clock" ></i>

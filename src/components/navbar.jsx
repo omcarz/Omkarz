@@ -13,9 +13,10 @@ export default function Navbar() {
         backgroundColor: "black",
         color: "whitesmoke",
         position: "fixed",
-        top: "32px",
+        top: "34px",
         right: "0px",
-        opacity: "0.8"
+        opacity: "0.8",
+        lineHeight:"30px"
     }
     function Dropdown() {
         if (!clickedBars) {

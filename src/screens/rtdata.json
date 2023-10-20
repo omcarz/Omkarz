@@ -10,7 +10,15 @@
     },
     {
         "src": "AHMEDABAD",
-        "dest": "SURAT",
+        "dest": "VADODARA",
+        "l1": "Oneway Trip",
+        "l2": "from Rs 1899",
+        "img": "Car",
+        "l4": "Sedan: Rs 1899",
+        "l5": "SUV: Rs 2799"
+    },
+    {   "src": "AHMEDABAD",
+        "dest": "RAJKOT",
         "l1": "Oneway Trip",
         "l2": "from Rs 3699",
         "img": "Car",
@@ -18,59 +26,51 @@
         "l5": "SUV: Rs 4599"
     },
     {   "src": "AHMEDABAD",
-        "dest": "SURAT",
+        "dest": "BHUJ",
         "l1": "Oneway Trip",
-        "l2": "from Rs 3699",
+        "l2": "from Rs 4599",
         "img": "Car",
-        "l4": "Sedan: Rs 3699",
-        "l5": "SUV: Rs 4599"
+        "l4": "Sedan: Rs 4599",
+        "l5": "SUV: Rs 5799"
     },
-    {   "src": "AHMEDABAD",
-        "dest": "SURAT",
+    {   "src": "UDAIPUR",
+        "dest": "AHMEDABAD",
         "l1": "Oneway Trip",
         "l2": "from Rs 3699",
         "img": "Car",
-        "l4": "Sedan: Rs 3699",
-        "l5": "SUV: Rs 4599"
+        "l4": "Sedan: Rs 3899",
+        "l5": "SUV: Rs 4899"
     },
-    {   "src": "AHMEDABAD",
-        "dest": "SURAT",
+    {   "src": "JODHPUR",
+        "dest": "AHMEDABAD",
         "l1": "Oneway Trip",
-        "l2": "from Rs 3699",
+        "l2": "from Rs 6699",
         "img": "Car",
-        "l4": "Sedan: Rs 3699",
-        "l5": "SUV: Rs 4599"
+        "l4": "Sedan: Rs 6499",
+        "l5": "SUV: Rs 7999"
     },
-    {   "src": "AHMEDABAD",
-        "dest": "SURAT",
+    {   "src": "VADODARA",
+        "dest": "MUMBAI",
         "l1": "Oneway Trip",
-        "l2": "from Rs 3699",
+        "l2": "from Rs 5799",
         "img": "Car",
-        "l4": "Sedan: Rs 3699",
-        "l5": "SUV: Rs 4599"
+        "l4": "Sedan: Rs 5799",
+        "l5": "SUV: Rs 7799"
     },
-    {   "src": "AHMEDABAD",
+    {   "src": "MUMBAI",
         "dest": "SURAT",
         "l1": "Oneway Trip",
-        "l2": "from Rs 3699",
+        "l2": "from Rs 3999",
         "img": "Car",
-        "l4": "Sedan: Rs 3699",
-        "l5": "SUV: Rs 4599"
+        "l4": "Sedan: Rs 3999",
+        "l5": "SUV: Rs 4999"
     },
-    {   "src": "AHMEDABAD",
-        "dest": "SURAT",
+    {   "src": "INDORE",
+        "dest": "AHMEDABAD",
         "l1": "Oneway Trip",
-        "l2": "from Rs 3699",
+        "l2": "from Rs 7499",
         "img": "Car",
-        "l4": "Sedan: Rs 3699",
-        "l5": "SUV: Rs 4599"
-    },
-    {   "src": "AHMEDABAD",
-        "dest": "SURAT",
-        "l1": "Oneway Trip",
-        "l2": "from Rs 3699",
-        "img": "Car",
-        "l4": "Sedan: Rs 3699",
-        "l5": "SUV: Rs 4599"
+        "l4": "Sedan: Rs 7499",
+        "l5": "SUV: Rs 8499"
     }
 ]
