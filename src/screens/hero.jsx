@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
-import Taxi from "../images/yellowTaxi.svg"
-import PhoneTaxi from "../images/phoneTaxi.svg"
+import Taxi from "../images/yellowTaxi.webp"
+import PhoneTaxi from "../images/phoneTaxi.webp"
 import '../styles/hero.css'
 import { useState } from 'react';
 
