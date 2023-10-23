@@ -1,104 +1,123 @@
-.mainDivFooter{
+.mainDivFooter {
     max-width: 100%;
     margin-top: 8%;
     display: flex;
     flex-direction: column;
     color: whitesmoke;
 }
-.upperDivFooter{
+
+.upperDivFooter {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
 }
-.lowerDivFooter{
+
+.lowerDivFooter {
     color: #D4D5D9;
     display: flex;
     justify-content: center;
     margin-top: 1%;
     margin-bottom: 2%;
 }
-.footerLogo{
+
+.footerLogo {
     width: 270px;
-   margin-top: 4%;
+    margin-top: 4%;
 }
-.footerList{
+
+.footerList {
     margin-top: 1%;
     font-size: 13px;
     line-height: 150%;
 }
-.contactInfoFooter{
+
+.contactInfoFooter {
     display: flex;
     flex-direction: column;
 }
-.contactHeading{
-    margin-bottom:4%;
+
+.contactHeading {
+    margin-bottom: 4%;
 }
-.contactInfoPara{
+
+.contactInfoPara {
     margin-top: 4%;
     margin-bottom: 4%;
 }
-.copyright{
+
+.copyright {
     font-size: 24px;
     font-weight: 600;
 }
 
 
-@media screen and (max-width: 1130px){
-    .footerLogo{
+@media screen and (max-width: 1130px) {
+    .footerLogo {
         width: 240px;
         margin-top: 4%;
     }
 }
-@media screen and (max-width: 950px){
-    .footerLogo{
+
+@media screen and (max-width: 950px) {
+    .footerLogo {
         width: 200px;
         margin-top: 4%;
     }
-    .footerList{
+
+    .footerList {
         display: none;
     }
-    .contactInfoFooter{
+
+    .contactInfoFooter {
         margin: 0%;
         width: 30%;
         font-size: 14px;
     }
-    .copyright{
+
+    .copyright {
         font-size: 20px;
         font-weight: 600;
     }
 }
-@media screen and (max-width: 740px){
-    .footerLogo{
+
+@media screen and (max-width: 740px) {
+    .footerLogo {
         width: 160px;
         margin-top: 20%;
     }
-    .footerList{
+
+    .footerList {
         display: none;
     }
-    .contactInfoFooter{
+
+    .contactInfoFooter {
         margin: 0%;
         width: 30%;
         font-size: 12px;
     }
-    .copyright{
+
+    .copyright {
         font-size: 18px;
         font-weight: 600;
     }
 }
 
-@media screen and (max-width: 600px){
-    .footerLogo{
+@media screen and (max-width: 600px) {
+    .footerLogo {
         width: 100px;
         margin-top: 20%;
     }
-    .footerList{
+
+    .footerList {
         display: none;
     }
-    .contactInfoFooter{
+
+    .contactInfoFooter {
         margin-right: 0%;
         width: 30%;
         font-size: 12px;
     }
-    .copyright{
+
+    .copyright {
         font-size: 13px;
         font-weight: 600;
     }

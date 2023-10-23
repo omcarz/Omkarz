@@ -10,9 +10,9 @@ export default function footer() {
                     <img src={Logo} alt='Logo' className='footerLogo' />
                 </div>
                 <div className='footerList'>
-                <p><a href="#" className='navb-link'>Home</a></p>
-                <p><a href="tel:7802957645" className='navb-link'>Book</a></p>
-                <p><a href='#aboutus' className='navb-link'>Services</a></p>
+                    <p><a href="#" className='navb-link'>Home</a></p>
+                    <p><a href="tel:7802957645" className='navb-link'>Book</a></p>
+                    <p><a href='#aboutus' className='navb-link'>Services</a></p>
                 </div>
                 <div className="contactInfoFooter">
                     <div>

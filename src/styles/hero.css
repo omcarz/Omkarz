@@ -120,6 +120,7 @@
         height: 45px;
         margin: 3px 7px 3px 7px;
     }
+
     .timings {
         position: absolute;
         top: 16%;
@@ -133,6 +134,7 @@
     .tagline {
         font-size: 32px;
     }
+
     .timings {
         position: absolute;
         top: 14%;
@@ -159,11 +161,13 @@
     .tagline {
         font-size: 23px;
     }
+
     .bookNow-icon {
         width: 34px;
         height: 34px;
         margin: 2px 2px 2px 2px;
     }
+
     .timings {
         position: absolute;
         top: 16%;
@@ -183,6 +187,7 @@
         height: 30px;
         margin: 2px 2px 2px 2px;
     }
+
     .timings {
         position: absolute;
         top: 16%;
@@ -202,26 +207,30 @@
         margin: 0%;
         width: fit-content;
     }
+
     .bookNow {
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    z-index: 2;
-    font-size: 2.2em;
-    color: #FFFFFF;
-    margin-top: 3%;
-    display: flex;
-    flex-direction: column;
-    width: fit-content;
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        z-index: 2;
+        font-size: 2.2em;
+        color: #FFFFFF;
+        margin-top: 3%;
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
     }
+
     .bookNow-heading {
         margin-bottom: 2%;
     }
+
     .bookNow-icon {
         width: 30px;
         height: 30px;
         margin: 2px;
     }
+
     .timings {
         display: none;
     }

@@ -16,7 +16,7 @@ export default function Navbar() {
         top: "34px",
         right: "0px",
         opacity: "0.8",
-        lineHeight:"30px"
+        lineHeight: "30px"
     }
     function Dropdown() {
         if (!clickedBars) {

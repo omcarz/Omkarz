@@ -23,14 +23,14 @@ export default function ourServices() {
   }
   return (
     <div className='services-mainDiv' id="aboutus">
-      <h1 style={{marginBottom:"2%"}}>our services</h1>
+      <h1 style={{ marginBottom: "2%" }}>our services</h1>
       <hr className='hr' />
       <div className='serviceList'>
         <div className='servicesRow'>
           <div>
             <ServiceCard className="service1and3" img={airport.img} heading={airport.heading} para={airport.paragraph} />
           </div>
-          <div  className='emptyDiv'></div>
+          <div className='emptyDiv'></div>
         </div>
         <div className='servicesRow'>
           <div className='emptyDiv'></div>
@@ -42,7 +42,7 @@ export default function ourServices() {
           <div>
             <ServiceCard className="service1and3" img={Availability.img} heading={Availability.heading} para={Availability.paragraph} />
           </div>
-          <div  className='emptyDiv'></div>
+          <div className='emptyDiv'></div>
         </div>
       </div>
     </div>

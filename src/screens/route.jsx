@@ -34,7 +34,7 @@ function Route() {
                                     <p className="rt-card-l3">{rt.l4}</p>
                                     <p className="rt-card-l3">{rt.l5}</p>
                                     <a href="tel:7802957645" className='navb-link'>
-                                    <button className="rt-card-btn">BOOK NOW</button>
+                                        <button className="rt-card-btn">BOOK NOW</button>
                                     </a>
                                 </div>
                             </div>

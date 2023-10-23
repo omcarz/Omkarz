@@ -24,36 +24,36 @@ export default function Hero() {
         {timings}
       </div>
       <div className='tagline'>
-        {!heroTxt && 
-        <div>
+        {!heroTxt &&
+          <div>
             <p style={{ display: "flex", flexDirection: "row-reverse" }}>Moving People</p>
-        and the <strong style={{ color: "#FFC440" }}>Ahmedabad</strong>
-        </div>
-      }
+            and the <strong style={{ color: "#FFC440" }}>Ahmedabad</strong>
+          </div>
+        }
 
-        {heroTxt && 
-        <div >
-          <p>Moving <br></br> 
-          People <br></br> 
-          and the<br></br>
-          <strong style={{ color: "#FFC440",position:"relative",right:'35%' }}>Ahmedabad</strong></p>
-        </div>}
+        {heroTxt &&
+          <div >
+            <p>Moving <br></br>
+              People <br></br>
+              and the<br></br>
+              <strong style={{ color: "#FFC440", position: "relative", right: '35%' }}>Ahmedabad</strong></p>
+          </div>}
       </div>
       <div className='bookNow'>
-          <div className='bookNow-heading'>Book Now</div>
-          <div className='bookNow-icons'>
-            <div className='bookNow-icon' style={{marginRight:"25px"}}>
-              <a href="tel:7802957645" className='navb-link'>
-                <i class="fa-solid fa-phone-volume" style={{ transform: "scale(0.5)", }}></i>
-              </a>
-            </div>
-            <div className='bookNow-icon' style={{marginLeft:"25px"}}>
-              <a href='https://wa.me/+917802957645' className='navb-link' target='blank'>
-                <i class="fa-brands fa-whatsapp" style={{ transform: "scale(0.67)" }}></i>
-              </a>
-            </div>
+        <div className='bookNow-heading'>Book Now</div>
+        <div className='bookNow-icons'>
+          <div className='bookNow-icon' style={{ marginRight: "25px" }}>
+            <a href="tel:7802957645" className='navb-link'>
+              <i class="fa-solid fa-phone-volume" style={{ transform: "scale(0.5)", }}></i>
+            </a>
+          </div>
+          <div className='bookNow-icon' style={{ marginLeft: "25px" }}>
+            <a href='https://wa.me/+917802957645' className='navb-link' target='blank'>
+              <i class="fa-brands fa-whatsapp" style={{ transform: "scale(0.67)" }}></i>
+            </a>
           </div>
         </div>
+      </div>
     </div>
   )
 }

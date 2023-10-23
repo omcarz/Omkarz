@@ -5,8 +5,8 @@ import '../styles/servicesAndThings.css'
 export default function servicesAndthings() {
   return (
     <div className='servicesAndThings'>
-      <Things/>
-      <OurServices/>
+      <Things />
+      <OurServices />
     </div>
   )
 }

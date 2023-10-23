@@ -1,42 +1,42 @@
-.rvw-main-div{
-    margin: 7% 8% 0;
+.rvw-main-div {
+  margin: 7% 8% 0;
 }
 
 /* ----------------------Header------------------------- */
 
-.rvw-head{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 1% 0 2%;
+.rvw-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1% 0 2%;
 }
 
-.rvw-head p{
-    color: #fff;
-    font-size: 4rem;
+.rvw-head p {
+  color: #fff;
+  font-size: 4rem;
 }
 
-.rvw-hr{
-    border: 2px solid #fff;
-    width: 31rem;
-    border-radius: 5px;
+.rvw-hr {
+  border: 2px solid #fff;
+  width: 31rem;
+  border-radius: 5px;
 }
 
 /* ----------------------Carousel------------------------- */
 
-.rvw-carousel-div{
+.rvw-carousel-div {
   zoom: 80%;
   margin-top: -4rem;
 }
 
-.rvw-card{
+.rvw-card {
   width: 37rem;
   height: 42rem;
   border-radius: 2rem;
   background-color: rgba(255, 196, 64, 1);
 }
 
-.rvw-card-text p{
+.rvw-card-text p {
   font-size: 35px;
 }
 
@@ -45,22 +45,22 @@
 
 @media only screen and (max-width:700px) {
 
-   .rvw-main-div{
-      margin: 2% 2% 0;
+  .rvw-main-div {
+    margin: 2% 2% 0;
   }
 
-    .rvw-head p{
-        font-size: 2rem;
-    }
+  .rvw-head p {
+    font-size: 2rem;
+  }
 
-    .rvw-hr{
-        width: 17rem;
-    }
+  .rvw-hr {
+    width: 17rem;
+  }
 
-    .rvw-card-text p{
-      font-size: 32px;
-    }
-    
+  .rvw-card-text p {
+    font-size: 32px;
+  }
+
 }
 
 
@@ -99,10 +99,12 @@
   .swiper_container {
     height: 47rem;
   }
+
   .swiper-slide {
     width: 28rem !important;
     height: 36rem !important;
   }
+
   .swiper-slide .rvw-card {
     width: 28rem !important;
     height: 34rem !important;
@@ -117,26 +119,27 @@
   background-color: rgba(255, 196, 64, 1);
 }
 
-.rvw-card-user-img{
+.rvw-card-user-img {
   border-radius: 50%;
   background-color: white;
   width: 10rem;
 }
-.rvw-card-top{
+
+.rvw-card-top {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   margin: 0 6%;
-    padding-top: 6%;
+  padding-top: 6%;
 }
 
 
-.rvw-card-top-txt{
+.rvw-card-top-txt {
   font-size: 2.5rem;
   color: #fff;
 }
 
-.rvw-card-text{
+.rvw-card-text {
   text-align: justify;
   font-size: 2.5rem;
   margin: 0 15%;
@@ -144,15 +147,15 @@
 
 @media (max-width: 500px) {
 
-  .rvw-card-text{
+  .rvw-card-text {
     font-size: 2rem;
   }
 
-  .rvw-card-top-txt{
+  .rvw-card-top-txt {
     font-size: 2rem;
   }
 
-  .rvw-card-user-img{
+  .rvw-card-user-img {
     width: 8rem;
   }
 }
@@ -255,7 +258,7 @@
 }
 
 @media only screen and (max-width:700px) {
-  .rvw-card-text p{
+  .rvw-card-text p {
     font-size: 28px;
   }
 }

@@ -1,25 +1,25 @@
-.wcu-main-div{
+.wcu-main-div {
     background-color: #fff;
     margin-top: 15%;
     /* width: 50%; */
 }
 
-.wcu-hd{
+.wcu-hd {
     color: #000;
     font-size: 3rem;
     font-weight: bold;
     padding: 2%;
 }
 
-.wcu-cards-div{
+.wcu-cards-div {
     display: flex;
-    justify-content: space-between;   
+    justify-content: space-between;
     flex-wrap: wrap;
     padding: 0 1.7rem 0;
 }
 
 
-.wcu-card{
+.wcu-card {
     background-color: rgba(254, 145, 1, 0.48);
     margin-bottom: 3%;
     border-radius: 10px;
@@ -27,19 +27,19 @@
     height: 14rem;
 }
 
-.wcu-card-img{
+.wcu-card-img {
     width: 5rem;
     height: 4rem;
     padding: 1.5rem 1.5rem 5px;
 }
 
-.wcu-card-l1{
+.wcu-card-l1 {
     padding-left: 2.5rem;
     font-size: 1.5rem;
     font-weight: bold;
 }
 
-.wcu-card-l2{
+.wcu-card-l2 {
     padding-left: 2.5rem;
     font-size: 1rem;
     width: 13rem;
@@ -49,22 +49,22 @@
 /* ----------------------Responsive------------------------- */
 
 @media only screen and (max-width:900px) {
-    .wcu-hd{
+    .wcu-hd {
         font-size: 35px;
         text-align: center;
     }
 
-    .wcu-cards-div{
+    .wcu-cards-div {
         justify-content: center;
     }
 }
 
-@media only screen and (max-width:1200px){
-    .wcu-cards-div{
+@media only screen and (max-width:1200px) {
+    .wcu-cards-div {
         justify-content: center;
     }
 
-    .wcu-card{
+    .wcu-card {
         margin-right: 1rem;
     }
 }
