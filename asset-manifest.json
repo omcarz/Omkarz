@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/Omkarz/static/css/main.73bc560d.css",
+    "main.js": "/Omkarz/static/js/main.3c182176.js",
+    "static/media/swift.svg": "/Omkarz/static/media/swift.ccf6bb55dd8d5dcc6e9affb54368146f.svg",
+    "static/media/Ertiga.svg": "/Omkarz/static/media/Ertiga.00c58c5ebd2f4a7f596f4dc62f799294.svg",
+    "static/media/yellowTaxi.webp": "/Omkarz/static/media/yellowTaxi.f2367690bed35c48fc41.webp",
+    "static/media/rtcar.svg": "/Omkarz/static/media/rtcar.5bc006a9febfbdc1d4a35a089dd3e8b9.svg",
+    "static/media/logo.svg": "/Omkarz/static/media/logo.fcc55ad50f1b25e0210b70d06f607d42.svg",
+    "static/media/phoneTaxi.webp": "/Omkarz/static/media/phoneTaxi.099b092a8614205c9977.webp",
+    "static/media/lexend-latin-400-normal.woff": "/Omkarz/static/media/lexend-latin-400-normal.c87b078621ccaa289069.woff",
+    "static/media/lexend-latin-ext-400-normal.woff": "/Omkarz/static/media/lexend-latin-ext-400-normal.cd70863c92b3253d794f.woff",
+    "static/media/lexend-latin-400-normal.woff2": "/Omkarz/static/media/lexend-latin-400-normal.66f3898e74813ae23646.woff2",
+    "static/media/lexend-latin-ext-400-normal.woff2": "/Omkarz/static/media/lexend-latin-ext-400-normal.8798764a2ef5c5762912.woff2",
+    "static/media/Airplane.svg": "/Omkarz/static/media/Airplane.3e6cd6f08c83661c98d03f72c9b87f85.svg",
+    "static/media/lexend-vietnamese-400-normal.woff": "/Omkarz/static/media/lexend-vietnamese-400-normal.d8777d5b5c32fc341177.woff",
+    "static/media/ServicesTaxi.svg": "/Omkarz/static/media/ServicesTaxi.62a963debbc7112803bebdb0731190e0.svg",
+    "static/media/serviceClock.svg": "/Omkarz/static/media/serviceClock.739f37cd34ce8ceedad7d04a5bb92909.svg",
+    "static/media/lexend-vietnamese-400-normal.woff2": "/Omkarz/static/media/lexend-vietnamese-400-normal.0c9858ac0202e5eb0c8b.woff2",
+    "static/media/user.svg": "/Omkarz/static/media/user.3a1113cb4fc18ec82d6d3b2e421ba938.svg",
+    "static/media/id.svg": "/Omkarz/static/media/id.4bcbadacb40295c1952c7779cdb2ddb4.svg",
+    "static/media/money.svg": "/Omkarz/static/media/money.cc41732634c4152e5d6143eb3ebbe5c6.svg",
+    "static/media/clock.svg": "/Omkarz/static/media/clock.e88ee614b45eea30f7efcabb320228cf.svg",
+    "index.html": "/Omkarz/index.html",
+    "static/media/arrow.svg": "/Omkarz/static/media/arrow.605115e7b96b52d88cf6fb39ecca95eb.svg",
+    "main.73bc560d.css.map": "/Omkarz/static/css/main.73bc560d.css.map",
+    "main.3c182176.js.map": "/Omkarz/static/js/main.3c182176.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73bc560d.css",
+    "static/js/main.3c182176.js"
+  ]
+}
